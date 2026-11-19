@@ -1,0 +1,1682 @@
+[
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "ask-es",
+      "kind": "ask",
+      "target": "es",
+      "say": [
+        {
+          "lang": "en",
+          "text": "How do you say good morning in Spanish?"
+        }
+      ]
+    },
+    "hypothesis": "How do you say good morning in Spanish?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 1421.0359579999995
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "ask-fr",
+      "kind": "ask",
+      "target": "fr",
+      "say": [
+        {
+          "lang": "en",
+          "text": "How do I say nice to meet you in French?"
+        }
+      ]
+    },
+    "hypothesis": "How do I say nice to meet you in French?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 1227.595292
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "ask-de",
+      "kind": "ask",
+      "target": "de",
+      "say": [
+        {
+          "lang": "en",
+          "text": "What's the German word for train station?"
+        }
+      ]
+    },
+    "hypothesis": "What's the German word for train station?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 491.85220800000025
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "ask-it",
+      "kind": "ask",
+      "target": "it",
+      "say": [
+        {
+          "lang": "en",
+          "text": "Can you teach me how to order a coffee in Italian?"
+        }
+      ]
+    },
+    "hypothesis": "Can you teach me how to order a coffee in Italian?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 1300.6622080000002
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "ask-pt",
+      "kind": "ask",
+      "target": "pt",
+      "say": [
+        {
+          "lang": "en",
+          "text": "How would I ask where the bathroom is in Portuguese?"
+        }
+      ]
+    },
+    "hypothesis": "How would I ask where the bathroom is in Portuguese?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 1292.0298329999996
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "att-es-1",
+      "kind": "attempt",
+      "target": "es",
+      "say": [
+        {
+          "lang": "es",
+          "text": "Buenos días."
+        }
+      ],
+      "taught": "buenos días"
+    },
+    "hypothesis": "Buenos días.",
+    "finals": 1,
+    "lang": "es",
+    "latency": 409.34441700000025
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "att-es-2",
+      "kind": "attempt",
+      "target": "es",
+      "say": [
+        {
+          "lang": "es",
+          "text": "Mucho gusto en conocerte."
+        }
+      ],
+      "taught": "mucho gusto en conocerte"
+    },
+    "hypothesis": "Mucho gusto en conocerte.",
+    "finals": 1,
+    "lang": "es",
+    "latency": 423.75391599999784
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "att-fr-1",
+      "kind": "attempt",
+      "target": "fr",
+      "say": [
+        {
+          "lang": "fr",
+          "text": "Enchanté."
+        }
+      ],
+      "taught": "enchanté"
+    },
+    "hypothesis": "Enchantée.",
+    "finals": 1,
+    "lang": "fr",
+    "latency": 714.2103750000024
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "att-fr-2",
+      "kind": "attempt",
+      "target": "fr",
+      "say": [
+        {
+          "lang": "fr",
+          "text": "Je voudrais un café, s'il vous plaît."
+        }
+      ],
+      "taught": "je voudrais un café s'il vous plaît"
+    },
+    "hypothesis": "Je voudrais un café, s'il vous plaît.",
+    "finals": 1,
+    "lang": "fr",
+    "latency": 444.92620899999747
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "att-de-1",
+      "kind": "attempt",
+      "target": "de",
+      "say": [
+        {
+          "lang": "de",
+          "text": "Guten Morgen."
+        }
+      ],
+      "taught": "guten Morgen"
+    },
+    "hypothesis": "Guten Morgen!",
+    "finals": 1,
+    "lang": "de",
+    "latency": 516.0126659999987
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "att-de-2",
+      "kind": "attempt",
+      "target": "de",
+      "say": [
+        {
+          "lang": "de",
+          "text": "Wo ist der Bahnhof?"
+        }
+      ],
+      "taught": "wo ist der Bahnhof"
+    },
+    "hypothesis": "Wo ist der Bahnhof?",
+    "finals": 1,
+    "lang": "de",
+    "latency": 1553.1977919999918
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "att-it-1",
+      "kind": "attempt",
+      "target": "it",
+      "say": [
+        {
+          "lang": "it",
+          "text": "Buongiorno."
+        }
+      ],
+      "taught": "buongiorno"
+    },
+    "hypothesis": "Buongiorno!",
+    "finals": 1,
+    "lang": "it",
+    "latency": 509.9237909999938
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "att-it-2",
+      "kind": "attempt",
+      "target": "it",
+      "say": [
+        {
+          "lang": "it",
+          "text": "Vorrei un caffè, per favore."
+        }
+      ],
+      "taught": "vorrei un caffè per favore"
+    },
+    "hypothesis": "Vorrei un caffè, per favore.",
+    "finals": 1,
+    "lang": "it",
+    "latency": 579.6551250000048
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "att-pt-1",
+      "kind": "attempt",
+      "target": "pt",
+      "say": [
+        {
+          "lang": "pt",
+          "text": "Bom dia."
+        }
+      ],
+      "taught": "bom dia"
+    },
+    "hypothesis": "Bom dia!",
+    "finals": 1,
+    "lang": "pt",
+    "latency": 621.3286249999946
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "att-pt-2",
+      "kind": "attempt",
+      "target": "pt",
+      "say": [
+        {
+          "lang": "pt",
+          "text": "Onde fica o banheiro?"
+        }
+      ],
+      "taught": "onde fica o banheiro"
+    },
+    "hypothesis": "Onde fica o banheiro?",
+    "finals": 1,
+    "lang": "pt",
+    "latency": 514.4088330000086
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "mix-es",
+      "kind": "mixed",
+      "target": "es",
+      "say": [
+        {
+          "lang": "en",
+          "text": "What does"
+        },
+        {
+          "lang": "es",
+          "text": "mucho gusto"
+        },
+        {
+          "lang": "en",
+          "text": "mean?"
+        }
+      ]
+    },
+    "hypothesis": "What does mucho gusto mean?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 324.527625000017
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "mix-fr",
+      "kind": "mixed",
+      "target": "fr",
+      "say": [
+        {
+          "lang": "en",
+          "text": "Is it"
+        },
+        {
+          "lang": "fr",
+          "text": "bonjour"
+        },
+        {
+          "lang": "en",
+          "text": "or"
+        },
+        {
+          "lang": "fr",
+          "text": "bonsoir"
+        },
+        {
+          "lang": "en",
+          "text": "in the evening?"
+        }
+      ]
+    },
+    "hypothesis": "Is it bonjour or bonsoir in the evening?",
+    "finals": 1,
+    "lang": "fr",
+    "latency": 568.2803750000021
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "mix-de",
+      "kind": "mixed",
+      "target": "de",
+      "say": [
+        {
+          "lang": "en",
+          "text": "Can I say"
+        },
+        {
+          "lang": "de",
+          "text": "guten Abend"
+        },
+        {
+          "lang": "en",
+          "text": "late at night?"
+        }
+      ]
+    },
+    "hypothesis": "Can I say Guten Abend late at night?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 409.42983300000196
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "mix-it",
+      "kind": "mixed",
+      "target": "it",
+      "say": [
+        {
+          "lang": "en",
+          "text": "How is"
+        },
+        {
+          "lang": "it",
+          "text": "grazie mille"
+        },
+        {
+          "lang": "en",
+          "text": "different from just"
+        },
+        {
+          "lang": "it",
+          "text": "grazie?"
+        }
+      ]
+    },
+    "hypothesis": "How is grazie mille different from just grazie?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 511.541292000009
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "mix-pt",
+      "kind": "mixed",
+      "target": "pt",
+      "say": [
+        {
+          "lang": "en",
+          "text": "Does"
+        },
+        {
+          "lang": "pt",
+          "text": "obrigado"
+        },
+        {
+          "lang": "en",
+          "text": "change if a woman says it?"
+        }
+      ]
+    },
+    "hypothesis": "Does obrigado change if a woman says it?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 490.6510409999755
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "miss-es-1",
+      "kind": "near_miss",
+      "target": "es",
+      "say": [
+        {
+          "lang": "es",
+          "text": "Buenos tardes."
+        }
+      ],
+      "taught": "buenas tardes"
+    },
+    "hypothesis": "Buenas tardes.",
+    "finals": 1,
+    "lang": "es",
+    "latency": 449.0329999999958
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "miss-es-2",
+      "kind": "near_miss",
+      "target": "es",
+      "say": [
+        {
+          "lang": "es",
+          "text": "Estoy caliente."
+        }
+      ],
+      "taught": "tengo calor"
+    },
+    "hypothesis": "¿Estoy caliente?",
+    "finals": 1,
+    "lang": "es",
+    "latency": 404.09183300001314
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "miss-fr-1",
+      "kind": "near_miss",
+      "target": "fr",
+      "say": [
+        {
+          "lang": "fr",
+          "text": "Je suis faim."
+        }
+      ],
+      "taught": "j'ai faim"
+    },
+    "hypothesis": "Je suis faim.",
+    "finals": 1,
+    "lang": "fr",
+    "latency": 511.82291700004134
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "miss-de-1",
+      "kind": "near_miss",
+      "target": "de",
+      "say": [
+        {
+          "lang": "de",
+          "text": "Ich bin kalt."
+        }
+      ],
+      "taught": "mir ist kalt"
+    },
+    "hypothesis": "Ich bin kalt.",
+    "finals": 1,
+    "lang": "de",
+    "latency": 546.9328749999986
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "miss-it-1",
+      "kind": "near_miss",
+      "target": "it",
+      "say": [
+        {
+          "lang": "it",
+          "text": "Io sono fame."
+        }
+      ],
+      "taught": "ho fame"
+    },
+    "hypothesis": "Io sono fame.",
+    "finals": 1,
+    "lang": "it",
+    "latency": 475.3904160000093
+  },
+  {
+    "variant": "assemblyai",
+    "item": {
+      "id": "miss-pt-1",
+      "kind": "near_miss",
+      "target": "pt",
+      "say": [
+        {
+          "lang": "pt",
+          "text": "Eu sou com fome."
+        }
+      ],
+      "taught": "estou com fome"
+    },
+    "hypothesis": "You so calm, fam.",
+    "finals": 1,
+    "lang": "en",
+    "latency": 686.7984169999836
+  },
+  {
+    "variant": "assemblyai+keyterms",
+    "item": {
+      "id": "att-es-1",
+      "kind": "attempt",
+      "target": "es",
+      "say": [
+        {
+          "lang": "es",
+          "text": "Buenos días."
+        }
+      ],
+      "taught": "buenos días"
+    },
+    "hypothesis": "Buenos días.",
+    "finals": 1,
+    "lang": "es",
+    "latency": 427.0097920000553
+  },
+  {
+    "variant": "assemblyai+keyterms",
+    "item": {
+      "id": "att-es-2",
+      "kind": "attempt",
+      "target": "es",
+      "say": [
+        {
+          "lang": "es",
+          "text": "Mucho gusto en conocerte."
+        }
+      ],
+      "taught": "mucho gusto en conocerte"
+    },
+    "hypothesis": "Mucho gusto en conocerte.",
+    "finals": 1,
+    "lang": "es",
+    "latency": 517.9127500000177
+  },
+  {
+    "variant": "assemblyai+keyterms",
+    "item": {
+      "id": "att-fr-1",
+      "kind": "attempt",
+      "target": "fr",
+      "say": [
+        {
+          "lang": "fr",
+          "text": "Enchanté."
+        }
+      ],
+      "taught": "enchanté"
+    },
+    "hypothesis": "Enchanté.",
+    "finals": 1,
+    "lang": "fr",
+    "latency": 533.6412919999566
+  },
+  {
+    "variant": "assemblyai+keyterms",
+    "item": {
+      "id": "att-fr-2",
+      "kind": "attempt",
+      "target": "fr",
+      "say": [
+        {
+          "lang": "fr",
+          "text": "Je voudrais un café, s'il vous plaît."
+        }
+      ],
+      "taught": "je voudrais un café s'il vous plaît"
+    },
+    "hypothesis": "Je voudrais un café, s'il vous plaît.",
+    "finals": 1,
+    "lang": "fr",
+    "latency": 526.5887920000241
+  },
+  {
+    "variant": "assemblyai+keyterms",
+    "item": {
+      "id": "att-de-1",
+      "kind": "attempt",
+      "target": "de",
+      "say": [
+        {
+          "lang": "de",
+          "text": "Guten Morgen."
+        }
+      ],
+      "taught": "guten Morgen"
+    },
+    "hypothesis": "Guten Morgen!",
+    "finals": 1,
+    "lang": "de",
+    "latency": 542.6014590000268
+  },
+  {
+    "variant": "assemblyai+keyterms",
+    "item": {
+      "id": "att-de-2",
+      "kind": "attempt",
+      "target": "de",
+      "say": [
+        {
+          "lang": "de",
+          "text": "Wo ist der Bahnhof?"
+        }
+      ],
+      "taught": "wo ist der Bahnhof"
+    },
+    "hypothesis": "Wo ist der Bahnhof?",
+    "finals": 1,
+    "lang": "de",
+    "latency": 1545.894541000016
+  },
+  {
+    "variant": "assemblyai+keyterms",
+    "item": {
+      "id": "att-it-1",
+      "kind": "attempt",
+      "target": "it",
+      "say": [
+        {
+          "lang": "it",
+          "text": "Buongiorno."
+        }
+      ],
+      "taught": "buongiorno"
+    },
+    "hypothesis": "Buongiorno!",
+    "finals": 1,
+    "lang": "it",
+    "latency": 548.9456250000512
+  },
+  {
+    "variant": "assemblyai+keyterms",
+    "item": {
+      "id": "att-it-2",
+      "kind": "attempt",
+      "target": "it",
+      "say": [
+        {
+          "lang": "it",
+          "text": "Vorrei un caffè, per favore."
+        }
+      ],
+      "taught": "vorrei un caffè per favore"
+    },
+    "hypothesis": "Vorrei un caffè, per favore.",
+    "finals": 1,
+    "lang": "it",
+    "latency": 549.431082999974
+  },
+  {
+    "variant": "assemblyai+keyterms",
+    "item": {
+      "id": "att-pt-1",
+      "kind": "attempt",
+      "target": "pt",
+      "say": [
+        {
+          "lang": "pt",
+          "text": "Bom dia."
+        }
+      ],
+      "taught": "bom dia"
+    },
+    "hypothesis": "Bom dia.",
+    "finals": 1,
+    "lang": "pt",
+    "latency": 530.2688329999801
+  },
+  {
+    "variant": "assemblyai+keyterms",
+    "item": {
+      "id": "att-pt-2",
+      "kind": "attempt",
+      "target": "pt",
+      "say": [
+        {
+          "lang": "pt",
+          "text": "Onde fica o banheiro?"
+        }
+      ],
+      "taught": "onde fica o banheiro"
+    },
+    "hypothesis": "Onde fica o banheiro?",
+    "finals": 1,
+    "lang": "pt",
+    "latency": 579.8129999999655
+  },
+  {
+    "variant": "assemblyai+keyterms",
+    "item": {
+      "id": "miss-es-1",
+      "kind": "near_miss",
+      "target": "es",
+      "say": [
+        {
+          "lang": "es",
+          "text": "Buenos tardes."
+        }
+      ],
+      "taught": "buenas tardes"
+    },
+    "hypothesis": "Buenas tardes.",
+    "finals": 1,
+    "lang": "es",
+    "latency": 426.4405000000261
+  },
+  {
+    "variant": "assemblyai+keyterms",
+    "item": {
+      "id": "miss-es-2",
+      "kind": "near_miss",
+      "target": "es",
+      "say": [
+        {
+          "lang": "es",
+          "text": "Estoy caliente."
+        }
+      ],
+      "taught": "tengo calor"
+    },
+    "hypothesis": "¿Estoy caliente?",
+    "finals": 1,
+    "lang": "es",
+    "latency": 554.8658340000547
+  },
+  {
+    "variant": "assemblyai+keyterms",
+    "item": {
+      "id": "miss-fr-1",
+      "kind": "near_miss",
+      "target": "fr",
+      "say": [
+        {
+          "lang": "fr",
+          "text": "Je suis faim."
+        }
+      ],
+      "taught": "j'ai faim"
+    },
+    "hypothesis": "Je suis faim.",
+    "finals": 1,
+    "lang": "fr",
+    "latency": 682.4551250000368
+  },
+  {
+    "variant": "assemblyai+keyterms",
+    "item": {
+      "id": "miss-de-1",
+      "kind": "near_miss",
+      "target": "de",
+      "say": [
+        {
+          "lang": "de",
+          "text": "Ich bin kalt."
+        }
+      ],
+      "taught": "mir ist kalt"
+    },
+    "hypothesis": "Ich bin kalt.",
+    "finals": 1,
+    "lang": "de",
+    "latency": 542.0448330000509
+  },
+  {
+    "variant": "assemblyai+keyterms",
+    "item": {
+      "id": "miss-it-1",
+      "kind": "near_miss",
+      "target": "it",
+      "say": [
+        {
+          "lang": "it",
+          "text": "Io sono fame."
+        }
+      ],
+      "taught": "ho fame"
+    },
+    "hypothesis": "Io sono fame.",
+    "finals": 1,
+    "lang": "it",
+    "latency": 519.070207999961
+  },
+  {
+    "variant": "assemblyai+keyterms",
+    "item": {
+      "id": "miss-pt-1",
+      "kind": "near_miss",
+      "target": "pt",
+      "say": [
+        {
+          "lang": "pt",
+          "text": "Eu sou com fome."
+        }
+      ],
+      "taught": "estou com fome"
+    },
+    "hypothesis": "Eu sou com fome.",
+    "finals": 1,
+    "lang": "pt",
+    "latency": 583.1424170000246
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "ask-es",
+      "kind": "ask",
+      "target": "es",
+      "say": [
+        {
+          "lang": "en",
+          "text": "How do you say good morning in Spanish?"
+        }
+      ]
+    },
+    "hypothesis": "How do you say good morning in Spanish?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 451.18175000004703
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "ask-fr",
+      "kind": "ask",
+      "target": "fr",
+      "say": [
+        {
+          "lang": "en",
+          "text": "How do I say nice to meet you in French?"
+        }
+      ]
+    },
+    "hypothesis": "How do I say nice to meet you in French?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 454.88108299998567
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "ask-de",
+      "kind": "ask",
+      "target": "de",
+      "say": [
+        {
+          "lang": "en",
+          "text": "What's the German word for train station?"
+        }
+      ]
+    },
+    "hypothesis": "What's the German word for train station?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 476.0374170000432
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "ask-it",
+      "kind": "ask",
+      "target": "it",
+      "say": [
+        {
+          "lang": "en",
+          "text": "Can you teach me how to order a coffee in Italian?"
+        }
+      ]
+    },
+    "hypothesis": "Can you teach me how to order a coffee in Italian?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 411.3645840000245
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "ask-pt",
+      "kind": "ask",
+      "target": "pt",
+      "say": [
+        {
+          "lang": "en",
+          "text": "How would I ask where the bathroom is in Portuguese?"
+        }
+      ]
+    },
+    "hypothesis": "How would I ask where the bathroom is in Portuguese?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 458.70012500003213
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "att-es-1",
+      "kind": "attempt",
+      "target": "es",
+      "say": [
+        {
+          "lang": "es",
+          "text": "Buenos días."
+        }
+      ],
+      "taught": "buenos días"
+    },
+    "hypothesis": "Buenos días.",
+    "finals": 1,
+    "lang": "es",
+    "latency": 398.88245899998583
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "att-es-2",
+      "kind": "attempt",
+      "target": "es",
+      "say": [
+        {
+          "lang": "es",
+          "text": "Mucho gusto en conocerte."
+        }
+      ],
+      "taught": "mucho gusto en conocerte"
+    },
+    "hypothesis": "Mucho gusto and conocerte.",
+    "finals": 1,
+    "lang": "id",
+    "latency": 396.5855829999782
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "att-fr-1",
+      "kind": "attempt",
+      "target": "fr",
+      "say": [
+        {
+          "lang": "fr",
+          "text": "Enchanté."
+        }
+      ],
+      "taught": "enchanté"
+    },
+    "hypothesis": "Enchante.",
+    "finals": 1,
+    "lang": "en",
+    "latency": 462.10304199997336
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "att-fr-2",
+      "kind": "attempt",
+      "target": "fr",
+      "say": [
+        {
+          "lang": "fr",
+          "text": "Je voudrais un café, s'il vous plaît."
+        }
+      ],
+      "taught": "je voudrais un café s'il vous plaît"
+    },
+    "hypothesis": "Je voudrais un café, s'il vous plaît.",
+    "finals": 1,
+    "lang": "fr",
+    "latency": 513.9816250000149
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "att-de-1",
+      "kind": "attempt",
+      "target": "de",
+      "say": [
+        {
+          "lang": "de",
+          "text": "Guten Morgen."
+        }
+      ],
+      "taught": "guten Morgen"
+    },
+    "hypothesis": "Guggen Morgan?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 455.02175000001444
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "att-de-2",
+      "kind": "attempt",
+      "target": "de",
+      "say": [
+        {
+          "lang": "de",
+          "text": "Wo ist der Bahnhof?"
+        }
+      ],
+      "taught": "wo ist der Bahnhof"
+    },
+    "hypothesis": "Whoa, Stir Bonhoef?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 447.33212500001537
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "att-it-1",
+      "kind": "attempt",
+      "target": "it",
+      "say": [
+        {
+          "lang": "it",
+          "text": "Buongiorno."
+        }
+      ],
+      "taught": "buongiorno"
+    },
+    "hypothesis": "Buongiorno.",
+    "finals": 1,
+    "lang": "en",
+    "latency": 454.2078750000219
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "att-it-2",
+      "kind": "attempt",
+      "target": "it",
+      "say": [
+        {
+          "lang": "it",
+          "text": "Vorrei un caffè, per favore."
+        }
+      ],
+      "taught": "vorrei un caffè per favore"
+    },
+    "hypothesis": "Fore un cafe, por favore.",
+    "finals": 1,
+    "lang": "en",
+    "latency": 552.7615000000224
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "att-pt-1",
+      "kind": "attempt",
+      "target": "pt",
+      "say": [
+        {
+          "lang": "pt",
+          "text": "Bom dia."
+        }
+      ],
+      "taught": "bom dia"
+    },
+    "hypothesis": "Bondia.",
+    "finals": 1,
+    "lang": "en",
+    "latency": 449.92058299999917
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "att-pt-2",
+      "kind": "attempt",
+      "target": "pt",
+      "say": [
+        {
+          "lang": "pt",
+          "text": "Onde fica o banheiro?"
+        }
+      ],
+      "taught": "onde fica o banheiro"
+    },
+    "hypothesis": "Onda fika o banyero?",
+    "finals": 1,
+    "lang": "ms",
+    "latency": 486.955083000008
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "mix-es",
+      "kind": "mixed",
+      "target": "es",
+      "say": [
+        {
+          "lang": "en",
+          "text": "What does"
+        },
+        {
+          "lang": "es",
+          "text": "mucho gusto"
+        },
+        {
+          "lang": "en",
+          "text": "mean?"
+        }
+      ]
+    },
+    "hypothesis": "What does Mucho Gusto mean?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 512.2094999999972
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "mix-fr",
+      "kind": "mixed",
+      "target": "fr",
+      "say": [
+        {
+          "lang": "en",
+          "text": "Is it"
+        },
+        {
+          "lang": "fr",
+          "text": "bonjour"
+        },
+        {
+          "lang": "en",
+          "text": "or"
+        },
+        {
+          "lang": "fr",
+          "text": "bonsoir"
+        },
+        {
+          "lang": "en",
+          "text": "in the evening?"
+        }
+      ]
+    },
+    "hypothesis": "Is it bonjour or bonsoir in the evening?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 534.7546670000302
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "mix-de",
+      "kind": "mixed",
+      "target": "de",
+      "say": [
+        {
+          "lang": "en",
+          "text": "Can I say"
+        },
+        {
+          "lang": "de",
+          "text": "guten Abend"
+        },
+        {
+          "lang": "en",
+          "text": "late at night?"
+        }
+      ]
+    },
+    "hypothesis": "Can I say Guten Abend late at night?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 436.58474999998
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "mix-it",
+      "kind": "mixed",
+      "target": "it",
+      "say": [
+        {
+          "lang": "en",
+          "text": "How is"
+        },
+        {
+          "lang": "it",
+          "text": "grazie mille"
+        },
+        {
+          "lang": "en",
+          "text": "different from just"
+        },
+        {
+          "lang": "it",
+          "text": "grazie?"
+        }
+      ]
+    },
+    "hypothesis": "How is Graziamile different from just Graziae?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 443.0054169999785
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "mix-pt",
+      "kind": "mixed",
+      "target": "pt",
+      "say": [
+        {
+          "lang": "en",
+          "text": "Does"
+        },
+        {
+          "lang": "pt",
+          "text": "obrigado"
+        },
+        {
+          "lang": "en",
+          "text": "change if a woman says it?"
+        }
+      ]
+    },
+    "hypothesis": "Does Obrigado change if a woman says it?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 411.89858300000196
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "miss-es-1",
+      "kind": "near_miss",
+      "target": "es",
+      "say": [
+        {
+          "lang": "es",
+          "text": "Buenos tardes."
+        }
+      ],
+      "taught": "buenas tardes"
+    },
+    "hypothesis": "Buenas tardes.",
+    "finals": 1,
+    "lang": "es",
+    "latency": 516.5330420000246
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "miss-es-2",
+      "kind": "near_miss",
+      "target": "es",
+      "say": [
+        {
+          "lang": "es",
+          "text": "Estoy caliente."
+        }
+      ],
+      "taught": "tengo calor"
+    },
+    "hypothesis": "¿Estoy caliente?",
+    "finals": 1,
+    "lang": "es",
+    "latency": 508.3389169999864
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "miss-fr-1",
+      "kind": "near_miss",
+      "target": "fr",
+      "say": [
+        {
+          "lang": "fr",
+          "text": "Je suis faim."
+        }
+      ],
+      "taught": "j'ai faim"
+    },
+    "hypothesis": "J Sui Fame.",
+    "finals": 1,
+    "lang": "en",
+    "latency": 533.6643329999642
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "miss-de-1",
+      "kind": "near_miss",
+      "target": "de",
+      "say": [
+        {
+          "lang": "de",
+          "text": "Ich bin kalt."
+        }
+      ],
+      "taught": "mir ist kalt"
+    },
+    "hypothesis": "Iq bin Colt.",
+    "finals": 1,
+    "lang": "en",
+    "latency": 515.767790999962
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "miss-it-1",
+      "kind": "near_miss",
+      "target": "it",
+      "say": [
+        {
+          "lang": "it",
+          "text": "Io sono fame."
+        }
+      ],
+      "taught": "ho fame"
+    },
+    "hypothesis": "Ayo Sonofami.",
+    "finals": 1,
+    "lang": "en",
+    "latency": 502.4054579999647
+  },
+  {
+    "variant": "deepgram",
+    "item": {
+      "id": "miss-pt-1",
+      "kind": "near_miss",
+      "target": "pt",
+      "say": [
+        {
+          "lang": "pt",
+          "text": "Eu sou com fome."
+        }
+      ],
+      "taught": "estou com fome"
+    },
+    "hypothesis": "Uso confirm.",
+    "finals": 1,
+    "lang": "en",
+    "latency": 460.1848750000354
+  },
+  {
+    "variant": "deepgram+keyterms",
+    "item": {
+      "id": "att-es-1",
+      "kind": "attempt",
+      "target": "es",
+      "say": [
+        {
+          "lang": "es",
+          "text": "Buenos días."
+        }
+      ],
+      "taught": "buenos días"
+    },
+    "hypothesis": "Buenos días.",
+    "finals": 1,
+    "lang": "es",
+    "latency": 485.61525000003166
+  },
+  {
+    "variant": "deepgram+keyterms",
+    "item": {
+      "id": "att-es-2",
+      "kind": "attempt",
+      "target": "es",
+      "say": [
+        {
+          "lang": "es",
+          "text": "Mucho gusto en conocerte."
+        }
+      ],
+      "taught": "mucho gusto en conocerte"
+    },
+    "hypothesis": "Mucho gusto en conocerte.",
+    "finals": 1,
+    "lang": "id",
+    "latency": 516.7657500000205
+  },
+  {
+    "variant": "deepgram+keyterms",
+    "item": {
+      "id": "att-fr-1",
+      "kind": "attempt",
+      "target": "fr",
+      "say": [
+        {
+          "lang": "fr",
+          "text": "Enchanté."
+        }
+      ],
+      "taught": "enchanté"
+    },
+    "hypothesis": "Enchanté.",
+    "finals": 1,
+    "lang": "en",
+    "latency": 587.4826250000042
+  },
+  {
+    "variant": "deepgram+keyterms",
+    "item": {
+      "id": "att-fr-2",
+      "kind": "attempt",
+      "target": "fr",
+      "say": [
+        {
+          "lang": "fr",
+          "text": "Je voudrais un café, s'il vous plaît."
+        }
+      ],
+      "taught": "je voudrais un café s'il vous plaît"
+    },
+    "hypothesis": "Je voudrais un café, s'il vous plaît.",
+    "finals": 1,
+    "lang": "fr",
+    "latency": 526.3534999999683
+  },
+  {
+    "variant": "deepgram+keyterms",
+    "item": {
+      "id": "att-de-1",
+      "kind": "attempt",
+      "target": "de",
+      "say": [
+        {
+          "lang": "de",
+          "text": "Guten Morgen."
+        }
+      ],
+      "taught": "guten Morgen"
+    },
+    "hypothesis": "Guggen Morgan?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 491.42379099997925
+  },
+  {
+    "variant": "deepgram+keyterms",
+    "item": {
+      "id": "att-de-2",
+      "kind": "attempt",
+      "target": "de",
+      "say": [
+        {
+          "lang": "de",
+          "text": "Wo ist der Bahnhof?"
+        }
+      ],
+      "taught": "wo ist der Bahnhof"
+    },
+    "hypothesis": "Wo ist der Bahnhof?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 560.4765410000109
+  },
+  {
+    "variant": "deepgram+keyterms",
+    "item": {
+      "id": "att-it-1",
+      "kind": "attempt",
+      "target": "it",
+      "say": [
+        {
+          "lang": "it",
+          "text": "Buongiorno."
+        }
+      ],
+      "taught": "buongiorno"
+    },
+    "hypothesis": "Buongiorno.",
+    "finals": 1,
+    "lang": "it",
+    "latency": 459.0213329999824
+  },
+  {
+    "variant": "deepgram+keyterms",
+    "item": {
+      "id": "att-it-2",
+      "kind": "attempt",
+      "target": "it",
+      "say": [
+        {
+          "lang": "it",
+          "text": "Vorrei un caffè, per favore."
+        }
+      ],
+      "taught": "vorrei un caffè per favore"
+    },
+    "hypothesis": "Vorrei un caffè, per favore.",
+    "finals": 1,
+    "lang": "en",
+    "latency": 500.4869169999729
+  },
+  {
+    "variant": "deepgram+keyterms",
+    "item": {
+      "id": "att-pt-1",
+      "kind": "attempt",
+      "target": "pt",
+      "say": [
+        {
+          "lang": "pt",
+          "text": "Bom dia."
+        }
+      ],
+      "taught": "bom dia"
+    },
+    "hypothesis": "Bondia.",
+    "finals": 1,
+    "lang": "en",
+    "latency": 452.4664580000099
+  },
+  {
+    "variant": "deepgram+keyterms",
+    "item": {
+      "id": "att-pt-2",
+      "kind": "attempt",
+      "target": "pt",
+      "say": [
+        {
+          "lang": "pt",
+          "text": "Onde fica o banheiro?"
+        }
+      ],
+      "taught": "onde fica o banheiro"
+    },
+    "hypothesis": "Onde fica o banheiro?",
+    "finals": 1,
+    "lang": "en",
+    "latency": 460.45374999998603
+  },
+  {
+    "variant": "deepgram+keyterms",
+    "item": {
+      "id": "miss-es-1",
+      "kind": "near_miss",
+      "target": "es",
+      "say": [
+        {
+          "lang": "es",
+          "text": "Buenos tardes."
+        }
+      ],
+      "taught": "buenas tardes"
+    },
+    "hypothesis": "Buenas tardes.",
+    "finals": 1,
+    "lang": "es",
+    "latency": 402.6085839999723
+  },
+  {
+    "variant": "deepgram+keyterms",
+    "item": {
+      "id": "miss-es-2",
+      "kind": "near_miss",
+      "target": "es",
+      "say": [
+        {
+          "lang": "es",
+          "text": "Estoy caliente."
+        }
+      ],
+      "taught": "tengo calor"
+    },
+    "hypothesis": "¿Estoy caliente?",
+    "finals": 1,
+    "lang": "es",
+    "latency": 491.81333299999824
+  },
+  {
+    "variant": "deepgram+keyterms",
+    "item": {
+      "id": "miss-fr-1",
+      "kind": "near_miss",
+      "target": "fr",
+      "say": [
+        {
+          "lang": "fr",
+          "text": "Je suis faim."
+        }
+      ],
+      "taught": "j'ai faim"
+    },
+    "hypothesis": "J Sui Fame.",
+    "finals": 1,
+    "lang": "en",
+    "latency": 468.02712499996414
+  },
+  {
+    "variant": "deepgram+keyterms",
+    "item": {
+      "id": "miss-de-1",
+      "kind": "near_miss",
+      "target": "de",
+      "say": [
+        {
+          "lang": "de",
+          "text": "Ich bin kalt."
+        }
+      ],
+      "taught": "mir ist kalt"
+    },
+    "hypothesis": "Iq bin Kalt.",
+    "finals": 1,
+    "lang": "en",
+    "latency": 464.10249999997905
+  },
+  {
+    "variant": "deepgram+keyterms",
+    "item": {
+      "id": "miss-it-1",
+      "kind": "near_miss",
+      "target": "it",
+      "say": [
+        {
+          "lang": "it",
+          "text": "Io sono fame."
+        }
+      ],
+      "taught": "ho fame"
+    },
+    "hypothesis": "Ayo sono fame.",
+    "finals": 1,
+    "lang": "en",
+    "latency": 406.67258399998536
+  },
+  {
+    "variant": "deepgram+keyterms",
+    "item": {
+      "id": "miss-pt-1",
+      "kind": "near_miss",
+      "target": "pt",
+      "say": [
+        {
+          "lang": "pt",
+          "text": "Eu sou com fome."
+        }
+      ],
+      "taught": "estou com fome"
+    },
+    "hypothesis": "Uso confirm.",
+    "finals": 1,
+    "lang": "en",
+    "latency": 409.36683400004404
+  }
+]
